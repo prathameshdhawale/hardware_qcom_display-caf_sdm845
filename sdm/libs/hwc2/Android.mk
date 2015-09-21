@@ -21,7 +21,7 @@ LOCAL_SHARED_LIBRARIES        := libsdmcore libqservice libbinder libhardware li
                                  libdisplaydebug libsdmutils libc++ liblog libgrallocutils libui \
                                  libgpu_tonemapper libhidlbase libhidltransport \
                                  vendor.display.config@1.0 android.hardware.graphics.mapper@2.0 \
-                                 android.hardware.graphics.allocator@2.0
+                                 android.hardware.graphics.allocator@2.0 libbfqio_vendor
 
 ifeq ($(display_config_version), DISPLAY_CONFIG_1_1)
 LOCAL_SHARED_LIBRARIES        += vendor.display.config@1.1
