@@ -1,4 +1,4 @@
-ifeq ($(call my-dir),$(call project-path-for,qcom-display))
+
 
 ifneq ($(TARGET_DISABLE_DISPLAY),true)
 
@@ -29,4 +29,4 @@ ifneq ($(filter msm% apq%,$(TARGET_BOARD_PLATFORM)),)
 endif
 endif
 
-endif
+
