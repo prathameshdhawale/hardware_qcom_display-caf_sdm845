@@ -12,6 +12,7 @@ LOCAL_COPY_HEADERS            := display_properties.h \
                                  ../libqdutils/display_config.h \
                                  ../libdebug/debug_handler.h \
                                  ../libqservice/QServiceUtils.h \
+				                         ../libcopybit/c2d2.h
                                  ../libqservice/IQService.h \
                                  ../libqservice/IQHDMIClient.h \
                                  ../libqservice/IQClient.h
